@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+.info {
+    width: 100%;
+    height: calc(100vh - 118px);
+    background-image: url("../../img/lgloffice4.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Instrument Serif', serif;
+}
+
+.info1 { 
+    width: 77%;
+    height: 70vh;
+    background: rgba(255, 255, 255, 0.7);
+    margin-left: 13px;
+}
+
+.info1 .info-text {
+    margin: 10px 140px 10px 140px;
+    text-align: center;
+}
+
+.info1 .info-text h1{
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.info1 .info-text p{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .info1 {
+        margin: 0;
+    }
+    .info1 .info-text {
+        margin: 0;
+     }
+
+     .info1 .info-text h1{
+        margin-top: 20px;
+     }
+
+     .info1 .info-text p {
+        margin: 10px;
+     }
+}
+

@@ -1,0 +1,76 @@
+.up{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up-left{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 55px;
+}
+
+.up-left .email-icon i {
+    margin: 10px;
+}
+
+.up-left .email-icon span {
+    cursor: pointer;
+}
+
+.up-left .email-icon span:hover {
+    color: grey;
+}
+
+.up-left .phone-icon i {
+    margin: 10px;
+}
+
+.up-left .phone-icon span {
+    cursor: pointer;
+}
+
+.up-left .phone-icon span:hover {
+    color: grey;
+}
+
+.up-right{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.up-right .lang-btn {
+    width: 90px;
+    height: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s ease;
+    margin-right: 160px;
+}
+
+.up-right .lang-btn:hover {
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .up-left {
+        display: none;
+    }
+
+    .up-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .up-right .lang-btn {
+        margin: 0;
+    }
+  }
