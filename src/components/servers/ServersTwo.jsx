@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 const ServersTwo = () => {
 
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
   return (
     <div className='serverstwo'>

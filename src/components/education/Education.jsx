@@ -5,7 +5,7 @@ import Classroom from "../../img/class.jpg"
 
 const Education = () => {
 
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
   return (
     <div className='education' id='education'>

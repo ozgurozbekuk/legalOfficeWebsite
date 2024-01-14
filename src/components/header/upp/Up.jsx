@@ -3,11 +3,10 @@ import "./up.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { useState } from "react";
-import i18n from "../../../i18n";
 import { useTranslation } from 'react-i18next';
 
 const Up = () => {
-  const { t, i18n } = useTranslation();
+  const {  i18n } = useTranslation();
   const [btn,setBtn] = useState(true)
 
   const clickHandle =async (lang) => {
