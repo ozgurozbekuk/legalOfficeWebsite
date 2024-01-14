@@ -6,7 +6,7 @@ import Logo from "../../../img/logo.png";
 
 const Navbar = () => {
 
-  const [isMenuOpen, setMenuOpen] = useState(true);
+  const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
