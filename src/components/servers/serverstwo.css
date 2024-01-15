@@ -63,12 +63,10 @@
 
     .serverstwo .card {
         width: 100%;
-        height: 100%;
+        height: 90%;
     }
 
     .serverstwo .card .cardbody {
-        width: 80%;
-        height: 80%;
         margin-right: 0;
     }
     .serverstwo .imgdiv{

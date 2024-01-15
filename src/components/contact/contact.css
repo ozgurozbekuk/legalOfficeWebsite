@@ -112,4 +112,8 @@ form {
     .contact-info p {
         margin: 0 10px;
     }
+
+    .contact-form {
+        margin-left: 30px;
+    }
 }
